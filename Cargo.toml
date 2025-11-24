@@ -169,6 +169,7 @@ members = [
     "crates/svg_preview",
     "crates/system_specs",
     "crates/tab_switcher",
+    "crates/harpoon",
     "crates/task",
     "crates/tasks_ui",
     "crates/telemetry",
@@ -401,6 +402,7 @@ supermaven_api = { path = "crates/supermaven_api" }
 codestral = { path = "crates/codestral" }
 system_specs = { path = "crates/system_specs" }
 tab_switcher = { path = "crates/tab_switcher" }
+harpoon = { path = "crates/harpoon" }
 task = { path = "crates/task" }
 tasks_ui = { path = "crates/tasks_ui" }
 telemetry = { path = "crates/telemetry" }

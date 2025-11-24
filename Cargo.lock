@@ -7482,6 +7482,32 @@ dependencies = [
 ]
 
 [[package]]
+name = "harpoon"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "collections",
+ "ctor",
+ "editor",
+ "fuzzy",
+ "gpui",
+ "language",
+ "menu",
+ "picker",
+ "project",
+ "schemars",
+ "serde",
+ "serde_json",
+ "settings",
+ "smol",
+ "theme",
+ "ui",
+ "util",
+ "workspace",
+ "zlog",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -21213,6 +21239,7 @@ dependencies = [
  "go_to_line",
  "gpui",
  "gpui_tokio",
+ "harpoon",
  "http_client",
  "image_viewer",
  "inspector_ui",
